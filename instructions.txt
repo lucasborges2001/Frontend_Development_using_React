@@ -1,0 +1,28 @@
+Learning Goals:
+
+By completing this assignment, by gaining hands-on experience with popular frontend development technologies and techniques. By completing the prompts, learners will build a portfolio of web applications that they can showcase to potential employers or clients. 
+
+Task:
+
+write code and create applications, as well as explain your thought process and reasoning behind your code. 
+
+Grading Criteria Overview
+Did the learner use proper HTML syntax and structure?
+
+Did the learner use CSS to style the web page?
+
+Did the learner use CSS selectors effectively?
+
+Did the learner use JavaScript to modify the DOM?
+
+Did the learner create a React component using proper syntax and structure?
+
+Did the learner use React props and state correctly?
+
+Did the learner use JSX syntax correctly?
+
+Did the learner use React Hooks to manage state?
+
+Did the learner use the useState and useEffect Hooks correctly?
+
+Did the learner create a functional component using Hooks?
