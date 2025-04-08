@@ -19,3 +19,21 @@ Espero a que el contenido del DOM esté completamente cargado utilizando el even
 
 Utilizo getElementById para seleccionar de forma eficiente los elementos que necesito manipular: el párrafo donde se muestra el contador y el botón que activa la acción.
 Defino una variable count para llevar el control del número actual. Luego, agrego un eventListener al botón que incrementa el valor de count y actualiza dinámicamente el contenido del párrafo mediante la propiedad textContent.
+
+
+3. React: Componente con Hooks
+Ahora transformaré la funcionalidad del contador en un componente de React, utilizando Hooks (useState y useEffect). Este ejemplo asume un entorno React ya configurado, como el que proporciona Create React App.
+
+Razonamiento:
+
+Componente Funcional: Creo App como un componente funcional, empleando la sintaxis moderna de React que favorece la simplicidad y reutilización de código.
+
+JSX: Utilizo JSX para estructurar el contenido HTML dentro del componente. La expresión {count} permite renderizar dinámicamente el estado actual del contador.
+
+useState: Declaro el estado count inicializado en 0 y la función setCount para actualizarlo. Esto reemplaza la lógica con let en JavaScript tradicional y permite que React maneje automáticamente el renderizado al cambiar el estado.
+
+useEffect: Implemento un efecto secundario que actualiza el título del documento cada vez que count cambia. El array de dependencias [count] garantiza que este efecto solo se ejecute cuando el valor de count se actualice.
+
+Eventos: El botón utiliza onClick para llamar a la función handleIncrement, que incrementa el contador de forma reactiva.
+
+Estado y Props: Aunque este componente no utiliza props, demuestra un manejo adecuado del estado con Hooks, lo cual es esencial en aplicaciones React modernas.
