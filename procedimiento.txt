@@ -10,3 +10,12 @@ En cuanto al CSS, aplico reglas que centran el contenido en pantalla utilizando 
 Uso selectores de tipo (por ejemplo: body, h1, button) y selectores por ID (como #root) para aplicar estilos de forma específica y efectiva.
 Además, implemento un efecto :hover en el botón para mejorar la experiencia visual y ofrecer retroalimentación al usuario al pasar el cursor.
 
+
+2. JavaScript: Manipulación del DOM
+A continuación, utilizo JavaScript para añadir interactividad a la página web. Específicamente, haré que el botón incremente un contador cada vez que se haga clic en él.
+
+Razonamiento:
+Espero a que el contenido del DOM esté completamente cargado utilizando el evento DOMContentLoaded, lo cual previene errores al intentar acceder a elementos que aún no han sido renderizados.
+
+Utilizo getElementById para seleccionar de forma eficiente los elementos que necesito manipular: el párrafo donde se muestra el contador y el botón que activa la acción.
+Defino una variable count para llevar el control del número actual. Luego, agrego un eventListener al botón que incrementa el valor de count y actualiza dinámicamente el contenido del párrafo mediante la propiedad textContent.
