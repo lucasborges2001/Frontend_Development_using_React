@@ -1,0 +1,12 @@
+1. HTML y CSS: Estructura y Estilo
+Como primer paso, crearé una página web básica utilizando HTML y CSS. Esta servirá como base para integrar funcionalidades más avanzadas con JavaScript y React en etapas posteriores.
+
+Razonamiento:
+Utilizo una estructura HTML semántica, comenzando con <!DOCTYPE html>, incluyendo el atributo lang="es" y las metaetiquetas necesarias para asegurar compatibilidad y accesibilidad en distintos navegadores y dispositivos.
+
+Dentro del body, creo un contenedor principal con el ID #root, el cual será utilizado más adelante para renderizar componentes de React. También incluyo un párrafo con el ID #counter para mostrar el valor inicial de un contador, junto con un botón con el ID #increment-btn que permitirá la interacción del usuario.
+
+En cuanto al CSS, aplico reglas que centran el contenido en pantalla utilizando display: flex, asegurando un diseño limpio y enfocado.
+Uso selectores de tipo (por ejemplo: body, h1, button) y selectores por ID (como #root) para aplicar estilos de forma específica y efectiva.
+Además, implemento un efecto :hover en el botón para mejorar la experiencia visual y ofrecer retroalimentación al usuario al pasar el cursor.
+

@@ -1,0 +1,29 @@
+Objetivos de aprendizaje:
+
+Al completar esta tarea, obtendrás experiencia práctica con tecnologías y técnicas populares de desarrollo frontend. Al resolver los ejercicios, los estudiantes construirán un portafolio de aplicaciones web que podrán mostrar a posibles empleadores o clientes.
+
+Tarea:
+
+Escribe código y crea aplicaciones, así como explica tu proceso de pensamiento y las razones detrás de tu código.
+
+Resumen de los criterios de evaluación:
+
+¿El estudiante utilizó una sintaxis y estructura HTML adecuadas?
+
+¿El estudiante utilizó CSS para estilizar la página web?
+
+¿El estudiante utilizó selectores CSS de forma efectiva?
+
+¿El estudiante utilizó JavaScript para modificar el DOM?
+
+¿El estudiante creó un componente de React usando una sintaxis y estructura correctas?
+
+¿El estudiante utilizó correctamente las props y el estado en React?
+
+¿El estudiante utilizó correctamente la sintaxis JSX?
+
+¿El estudiante utilizó React Hooks para manejar el estado?
+
+¿El estudiante utilizó correctamente los Hooks useState y useEffect?
+
+¿El estudiante creó un componente funcional usando Hooks?
